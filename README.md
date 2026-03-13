@@ -16,18 +16,11 @@ npx skills add google-labs-code/stitch-skills --skill react:components --global
 
 ## Available Skills
 
-### design-md
-Analyzes Stitch projects and generates comprehensive `DESIGN.md` files documenting design systems in natural, semantic language optimized for Stitch screen generation.
+### stitch-design
+Unified entry point for Stitch design work. Handles prompt enhancement (UI/UX keywords, atmosphere), design system synthesis (.stitch/DESIGN.md), and high-fidelity screen generation/editing via Stitch MCP.
 
 ```bash
-npx skills add google-labs-code/stitch-skills --skill design-md --global
-```
-
-### react-components
-Converts Stitch screens to React component systems with automated validation and design token consistency.
-
-```bash
-npx skills add google-labs-code/stitch-skills --skill react:components --global
+npx skills add google-labs-code/stitch-skills --skill stitch-design --global
 ```
 
 ### stitch-loop
@@ -37,11 +30,25 @@ Generates a complete multi-page website from a single prompt using Stitch, with 
 npx skills add google-labs-code/stitch-skills --skill stitch-loop --global
 ```
 
+### design-md
+Analyzes Stitch projects and generates comprehensive DESIGN.md files documenting design systems in natural, semantic language optimized for Stitch screen generation.
+
+```bash
+npx skills add google-labs-code/stitch-skills --skill design-md --global
+```
+
 ### enhance-prompt
 Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.
 
 ```bash
 npx skills add google-labs-code/stitch-skills --skill enhance-prompt --global
+```
+
+### react-components
+Converts Stitch screens to React component systems with automated validation and design token consistency.
+
+```bash
+npx skills add google-labs-code/stitch-skills --skill react:components --global
 ```
 
 ### remotion
