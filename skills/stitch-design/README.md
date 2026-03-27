@@ -1,6 +1,6 @@
 # Stitch Design Skill
 
-Teaches agents to generate high-fidelity, consistent UI designs and maintain project-level design systems using Stitch.
+A unified orchestrator for Stitch design workflows. This skill wraps the Stitch MCP server to provide a more intuitive interface, ensuring consistent prompt engineering, tool usage, and design system management.
 
 ## Install
 
@@ -10,12 +10,13 @@ npx skills add google-labs-code/stitch-skills --skill stitch-design --global
 
 ## What It Does
 
-Enables professional-grade UI/UX design workflows through Stitch MCP:
+Enables professional-grade UI/UX design workflows through Stitch MCP by extending its core capabilities:
 
 1. **Prompt Enhancement**: Transforms rough intent into structured, high-fidelity prompts with professional terminology and design system context.
-2. **Design System Synthesis**: Analyzes existing Stitch projects to create and maintain a `.stitch/DESIGN.md` "source of truth".
-3. **Iterative Generation**: Selects the best generation or editing workflow (`edit_screens`, `generate_variants`) based on user intent.
-4. **Asset Management**: Synchronizes remote designs by downloading HTML and screenshots to the project's `.stitch/designs` directory.
+2. **Design System Management**: Analyzes existing Stitch projects to create and maintain a `.stitch/DESIGN.md` "source of truth".
+3. **UI Generation & Editing**: Intelligently selects the best generation or editing workflow (`generate_screen_from_text`, `edit_screens`, `generate_variants`) based on user intent.
+4. **Asset Management & Uploads**: Uploads image assets or mockups directly to Stitch projects, and synchronizes remote designs by downloading HTML and screenshots to the local `.stitch/designs` directory.
+5. **Image-to-Screen**: Generates new high-fidelity designs based on user-provided reference images.
 
 ## Prerequisites
 

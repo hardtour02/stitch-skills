@@ -14,9 +14,10 @@
     }
   ],
   "designSystem": {
+    "assetId": "15996705518239280238",
     "primaryColor": "#1a365d",
     "secondaryColor": "#718096",
     "backgroundColor": "#f7fafc",
-    "fontFamily": "Inter, sans-serif"
+    "fontFamily": "INTER"
   }
 }
